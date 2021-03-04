@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "creation": "2021-01-26 11:30:32.333147",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "more_section",
+  "action",
+  "status",
+  "assigned_to",
+  "completed_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "action",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Action"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Opened\nClosed"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "User"
+  },
+  {
+   "fieldname": "completed_by",
+   "fieldtype": "Data",
+   "label": "Completed By"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "more_section",
+   "fieldtype": "Section Break",
+   "label": "More Information"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-26 12:25:56.261280",
+ "modified_by": "Administrator",
+ "module": "Meeting",
+ "name": "Meeting Minutes",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
